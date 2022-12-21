@@ -1,0 +1,162 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+h1{
+	color: #0e0d0d;
+	font-weight: bold;
+	transition: 0.5s;
+}
+
+h1:hover{
+	transform: scale(1.1);
+}
+
+.service-grid
+{
+    background: #fcfcfc;
+}
+
+.service-title h4
+{
+    position: relative;
+    display: inline-block;
+}
+
+.service-icon
+{
+    position: relative;
+}
+
+.service-title p
+{
+    padding: 0 190px;
+    margin-bottom: 10px;
+}
+
+.about-info-text h2
+{
+    margin-bottom: 23px;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: .9;
+}
+
+.about-info-text p
+{
+    padding: 0 100px;
+    font-size: 18px;
+    margin-bottom: 26px;
+      position: relative;
+}
+
+.about-content p
+{
+    margin-bottom: 0;
+}
+
+.about-info-text a
+{
+    margin-bottom: 20px;
+      position: relative;
+}
+
+.service-icon i
+{
+    font-size: 40px;
+    color: #e8bc00;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.service-wrap
+{
+    border: 5px solid #e6e6e6;
+    padding: 80px 30px;
+    position: relative;
+    top: 15px;
+
+    border-radius: 20px;
+    background: #e4c2b9;
+    box-shadow:  17px 17px 13px #718b74,
+    -17px -17px 13px #ffffff;
+
+}
+
+
+/* ***********************************IMAGES LINK FOR HOVER EFFECT*********************************** */
+
+
+#img1:hover
+{
+    background-image: url("img/user.jpg");
+    background-size: auto;
+    background-position: center center;
+    background-attachment: local;
+    transition: all .5s;
+}
+
+#img2:hover
+{
+    background-image: url("img/transfer.jpg");
+    background-size: auto;
+    background-position: center center;
+    background-attachment: local;
+    transition: all .5s;
+}
+
+#img3:hover
+{
+    background-image: url("img/history.jpg");
+    background-size: auto;
+    background-position: center center;
+    background-attachment: local;
+    transition: all .5s;
+}
+
+/* ********************************************************************************************* */
+
+.service-wrap p
+{
+      position: relative;
+}
+
+
+.service-wrap:hover:before
+{
+    background: rgba(0, 0, 0, 0.2901960784313726);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    content: "";
+    top: 0;
+    opacity: 1;
+}
+
+.service-wrap:hover h4,.service-wrap:hover p
+{
+    color: #fff;
+}
+
+.service-wrap h4
+{
+    font-weight: 600;
+    color: #1e2331;
+    margin-bottom: 17px;
+    font-size: 18px;
+    text-transform: capitalize;
+      position: relative;
+}
+
+.service-wrap a
+{
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+
+}
+
